@@ -121,6 +121,25 @@ header .banner{
     text-align: justify;
 }
 
+/* about 2021 */
+
+.about-2021 h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+}
+.about-2021 h1,p{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+iframe{
+    margin-left: 10%;
+    margin-top: 2%;
+    width:560px;
+    height:315px;
+    margin-bottom: 10%;
+}
 /* footer section */
 
 footer{
@@ -185,7 +204,9 @@ th,td{
 }
 
 
-/* For mobile */
+/*----------------------------------
+          For mobile 
+-----------------------------------*/
 
 @media only screen and (max-width:688px) {
     h1{
@@ -193,7 +214,13 @@ th,td{
     }
     header{
         height: 1000px;
-        width: 420px;
+        width: 100%;
+    }
+    .hover{
+        display: none;
+    }
+    .Watch{
+        margin: 50px;
     }
     .container{
         display: flex;
@@ -245,6 +272,10 @@ th,td{
     .Watch{
         margin-left: 100px;
     }
+    iframe{
+        width: 80%;
+        
+    }
     .group-table{
         display: flex;
         flex-direction: column;
@@ -268,7 +299,9 @@ th,td{
 }
 
 
-/* For tablets */
+/*-------------------------------
+           For tablets
+------------------------------- */
 
 @media only screen and (min-width:688px) and (max-width:992px){
 
@@ -277,7 +310,10 @@ th,td{
     }
     header{
         height: 1000px;
-        width: 800px;
+        width: 100%;
+    }
+    .hover{
+        display: none;
     }
     .container{
         display: flex;
@@ -321,6 +357,7 @@ th,td{
         font-size: 30px;
     }
     
+
     .Watch{
         margin: auto;
     }
